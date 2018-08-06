@@ -12,11 +12,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #fF7F00;
-	color: #FFFAFA;
+	background-color: #F0E68C;
+	color: #FFFFE0;
 	padding: 10px;
 }
 
   #map {
-    height: 100%;
+    height: 50%%;
+    width: 50%%;
   }

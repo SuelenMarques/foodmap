@@ -5,21 +5,14 @@ $(document).ready(function () {
 
   });
 
-// $('.filtrar').click(function () {
-//     var inputValue = $('.termo').val();
 
-//     $( "li" ).each(function( ) {
-//       if($(this).text() !== inputValue) {
-//         $(this).fadeOut('slow');
-//       }
-//     });
-//   })
+var map;
+function initMap() {
 
-//   $('.data.js').on('input', function () {
-//     if($(this).val() === "") {
-//       $( "restaurantes" ).each(function( ) {
-//         $(this).fadeIn('slow')
-//       });
-//     }
-//   })
-
+  map = new google.maps.Map(document.getElementById ('map')[0], {
+      zoom: 8,
+      center: new google.maps.LatLng(-23.5298156, -47.1374002),
+      mapTypeId: 'google.maps.MapTypeId.ROADMAP'
+  });
+}
+ 
