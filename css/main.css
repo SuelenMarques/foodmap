@@ -1,1 +1,22 @@
-/*Add your CSS*/
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+#first, #fixed {
+	position: absolute;
+  	width: 100%;
+  	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fF7F00;
+	color: #FFFAFA;
+	padding: 10px;
+}
+
+  #map {
+    height: 100%;
+  }
